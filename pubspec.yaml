@@ -1,0 +1,24 @@
+
+name: adjdev_cloud_flutter_webview_full
+description: ADJDEV Cloud WebView App with full features
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^5.7.1
+  permission_handler: ^10.4.0
+  path_provider: ^2.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
